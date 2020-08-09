@@ -60,9 +60,9 @@ const readNote = function (title) {
   const notes = loadNotes();
   const note = notes.find((note) => note.title === title);
   if (note) {
-    console.log(chalk.green(note.title) + " : " + chalk.blue(note.body));
+    console.log(note.title + " : " + note.body);
   } else {
-    console.log(chalk.red.inverse("Note Not Found!"));
+    console.log("Note Not Found!");
   }
 };
 
