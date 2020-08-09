@@ -5,4 +5,4 @@ Image shows how to read notes
 
 Image showing how to add a new note, list all notes and remove a note.
 
-<img src="./img/notes-app.png">
+<img src="./notes-app.png">
